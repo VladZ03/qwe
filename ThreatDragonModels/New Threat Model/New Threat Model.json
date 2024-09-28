@@ -16,11 +16,440 @@
         "placeholder": "New STRIDE diagram description",
         "thumbnail": "./public/content/images/thumbnail.stride.jpg",
         "version": "2.2.0",
-        "cells": []
+        "cells": [
+          {
+            "position": {
+              "x": 687,
+              "y": 180
+            },
+            "size": {
+              "width": 740,
+              "height": 240
+            },
+            "shape": "trust-boundary-box",
+            "attrs": {
+              "headerText": {
+                "text": ""
+              }
+            },
+            "id": "43d97e2d-3937-4de5-9335-5f3df6858294",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": 360,
+              "y": 270
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Hacker"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "id": "a9848804-eac5-4d60-b77b-36130425affb",
+            "zIndex": 1,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Hacker",
+              "description": "Хакер - лицо, которое с целью нарушения информационной безопасности использует свои знания и навыки для несанкционированного доступа к компьютерным системам, сетям или данным.",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "79834d42-1a40-4826-8db2-78e69fa720ed",
+            "source": {
+              "cell": "a9848804-eac5-4d60-b77b-36130425affb"
+            },
+            "target": {
+              "x": 660,
+              "y": 300
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "a3094ddc-1526-4264-afc2-567f9ef2717b",
+            "source": {
+              "cell": "bfd02fea-fd53-4a71-b025-822819f4e675"
+            },
+            "target": {
+              "x": 1250,
+              "y": 300
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "e563a5f6-c0d8-4e86-8313-d6c2ef310b8e",
+            "source": {
+              "cell": "098fdc55-04f6-4002-ba2f-a6da5d4f33a4"
+            },
+            "target": {
+              "x": 970,
+              "y": 300
+            },
+            "vertices": [
+              {
+                "x": 890,
+                "y": 304.5
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "06d6ab75-728f-4cdf-aa70-befec4aa983b",
+            "source": {
+              "cell": "3ddab026-bbe1-4ce0-bae2-31d78f68c44b"
+            },
+            "target": {
+              "x": 430,
+              "y": 250
+            },
+            "vertices": [
+              {
+                "x": 860,
+                "y": 130
+              },
+              {
+                "x": 500,
+                "y": 190
+              }
+            ]
+          },
+          {
+            "position": {
+              "x": 730,
+              "y": 255
+            },
+            "size": {
+              "width": 110,
+              "height": 90
+            },
+            "attrs": {
+              "text": {
+                "text": "Authorization"
+              },
+              "body": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "id": "098fdc55-04f6-4002-ba2f-a6da5d4f33a4",
+            "zIndex": 11,
+            "data": {
+              "type": "tm.Process",
+              "name": "Authorization",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": [
+                {
+                  "id": "46995264-d535-41f1-88a3-04b76da40e41",
+                  "title": "Cross-Site Scripting (XSS)",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Information disclosure",
+                  "description": "XSS-атака позволяет злоумышленникам внедрять вредоносные скрипты в веб-страницы, которые затем выполняются в браузере других пользователей. Это может привести к краже данных сессии, подмене содержимого страниц и выполнению произвольных действий от имени пользователей.",
+                  "mitigation": "Чтобы предотвратить XSS, необходимо реализовать строгую проверку и экранирование всех входных данных, вводимых пользователями. Это включает в себя использование безопасных библиотек для экранирования данных в HTML, JavaScript и других контекстах, а также Content Security Policy (CSP), который ограничивает выполнение неавторизованных скриптов.\nD (Damage): 8\nR (Reproducibility): 9\nE (Exploitability): 6\nA (Affected Users): 8\nD (Discoverability): 7",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 1,
+                  "score": "37"
+                },
+                {
+                  "id": "9b0a46d7-b93f-49b4-83be-cfb177a1c1ae",
+                  "title": "Remote Code Execution (RCE)",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Elevation of privilege",
+                  "description": "Remote Code Execution (RCE) — это уязвимость, которая позволяет злоумышленнику удаленно выполнять произвольный код на целевом сервере или системе. Атаки RCE чрезвычайно опасны, поскольку злоумышленник может получить полный контроль над системой, выполнять команды, загружать вредоносные файлы, запускать программы и многое другое.",
+                  "mitigation": "Для предотвращения RCE важно тщательно проверять входные данные, избегать динамической генерации кода на основании непроверенных данных, использовать безопасные функции API и библиотеки. Также рекомендуется применять технологии виртуализации или контейнеризации для изоляции критичных компонентов системы.\nD (Damage): 10\nR (Reproducibility): 8\nE (Exploitability): 8\nA (Affected Users): 9\nD (Discoverability): 9",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 2,
+                  "score": "44"
+                },
+                {
+                  "id": "0fb09743-0065-469e-8728-37c5a36ff814",
+                  "title": "SQL Injection",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Tampering",
+                  "description": "SQL-инъекция — это одна из самых распространенных и опасных уязвимостей, позволяющая злоумышленникам вставлять или изменять SQL-запросы к базе данных через пользовательский ввод. Это может привести к краже данных, изменению информации, полному компрометированию базы данных и даже выполнению произвольных команд на сервере. Злоумышленники могут получить доступ к учетным записям, изменять данные или полностью разрушить систему.",
+                  "mitigation": "Для предотвращения SQL-инъекций необходимо использовать параметризованные запросы или ORM (Object-Relational Mapping), чтобы исключить возможность внедрения вредоносного кода в запросы. Также важно проверять и фильтровать все вводимые данные, применять хранимые процедуры и минимизировать права доступа для учетной записи базы данных.\nD (Damage): 9\nR (Reproducibility): 8\nE (Exploitability): 7\nA (Affected Users): 9\nD (Discoverability): 6",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 3,
+                  "score": "39"
+                },
+                {
+                  "id": "85346a5e-ef8c-4c4e-916d-7015ceb404a4",
+                  "title": "Broken Authentication",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Spoofing",
+                  "description": "Broken Authentication — это уязвимость, возникающая, когда механизмы аутентификации и управления сессиями не реализованы должным образом. Это может позволить злоумышленникам получать несанкционированный доступ к учетным записям пользователей, включая администраторов. Атаки могут включать использование украденных учетных данных, атаки через социальную инженерию, атаки методом перебора паролей и уязвимости в системах восстановления пароля.",
+                  "mitigation": "Чтобы предотвратить Broken Authentication, необходимо внедрить многофакторную аутентификацию (MFA), использовать безопасные механизмы хранения паролей (например, хэширование с солью), ограничить количество попыток входа и реализовать безопасное управление сессиями.\nD (Damage): 8\nR (Reproducibility): 7\nE (Exploitability): 8\nA (Affected Users): 9\nD (Discoverability): 7",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 4,
+                  "score": "42"
+                },
+                {
+                  "id": "13b4e7f3-aff1-4355-a2e9-ce385565861b",
+                  "title": "Cross-Site Request Forgery (CSRF)",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Repudiation",
+                  "description": "Cross-Site Request Forgery (CSRF) — это тип атаки, при которой злоумышленник обманом заставляет пользователя выполнить нежелательное действие на веб-приложении, в котором он уже авторизован. Например, злоумышленник может отправить запрос на изменение пароля или выполнение транзакции от имени жертвы, не требуя ее согласия. Эта уязвимость может привести к утечке данных, финансовым потерям и другим серьезным последствиям.",
+                  "mitigation": "Для предотвращения CSRF важно использовать токены проверки подлинности, уникальные для каждой сессии, и проверять их при выполнении критических действий. Также рекомендуется использовать методы ограничения источников запросов и механизмы защиты на стороне сервера.\nD (Damage): 7\nR (Reproducibility): 7\nE (Exploitability): 8\nA (Affected Users): 8\nD (Discoverability): 6",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 5,
+                  "score": "36"
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 1,
+                "tampering": 4,
+                "repudiation": 1,
+                "informationDisclosure": 1,
+                "denialOfService": 0,
+                "elevationOfPrivilege": 1
+              }
+            }
+          },
+          {
+            "position": {
+              "x": 987,
+              "y": 270
+            },
+            "size": {
+              "width": 120,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Web - server"
+              },
+              "topLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "id": "bfd02fea-fd53-4a71-b025-822819f4e675",
+            "zIndex": 12,
+            "data": {
+              "type": "tm.Store",
+              "name": "Web - server",
+              "description": "Веб-сервер — это программное обеспечение или аппаратное устройство, которое обрабатывает запросы от клиентов (обычно браузеров) и отправляет им обратно ответы. ",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isALog": false,
+              "isEncrypted": false,
+              "isSigned": false,
+              "storesCredentials": false,
+              "storesInventory": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 1254,
+              "y": 270
+            },
+            "size": {
+              "width": 120,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Data Base"
+              },
+              "topLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "id": "3ddab026-bbe1-4ce0-bae2-31d78f68c44b",
+            "zIndex": 13,
+            "data": {
+              "type": "tm.Store",
+              "name": "Data Base",
+              "description": "База данных — это совокупность информации, которая хранится в соответствии с её схемой и назначением.",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isALog": false,
+              "isEncrypted": false,
+              "isSigned": false,
+              "storesCredentials": false,
+              "storesInventory": false,
+              "threats": []
+            }
+          }
+        ]
       }
     ],
     "diagramTop": 1,
     "reviewer": "User",
-    "threatTop": 0
+    "threatTop": 5
   }
 }
