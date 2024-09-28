@@ -1,0 +1,26 @@
+{
+  "version": "2.2.0",
+  "summary": {
+    "title": "New Threat Model",
+    "owner": "Zavrazhnov",
+    "description": "According to the developers, this web application is damn vulnerable. It will help security professionals to test their skills in a legal environment, and web developers to better understand the processes of protecting their applications. The application is given as a PHP/MySQL instance for self-deployment.",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "id": 0,
+        "title": "Web Application",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.2.0",
+        "cells": []
+      }
+    ],
+    "diagramTop": 1,
+    "reviewer": "User",
+    "threatTop": 0
+  }
+}
